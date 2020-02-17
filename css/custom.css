@@ -1,0 +1,154 @@
+/* Global CSS */
+body {
+    color: white;
+    font-size: 12px;
+}
+
+/* Home */
+section.home-bg-img{
+    background: url("../images/homefull.jpg") no-repeat;
+    height: 630px;
+}
+
+div.home-bg-text {
+    padding-top: 259px;
+}
+
+span.myName {
+    color: #db09db;
+}
+
+.containerH1 {
+    margin: 5px;
+    text-align: center;
+}
+
+.buttonHolder {
+    text-align: center;
+    margin: 20px 0 20px 0;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #71625a;
+    border-color: #71625a;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: teal;
+    border-color: teal;
+}
+
+/* About */
+section.about-bg-img{
+    background: url("../images/aboutful.jpg") no-repeat;
+    height: 700px;
+    color: black;
+}
+
+img#myPic {
+    border-radius: 180px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+td {
+    padding-right: 55px;
+    padding-left: 55px;
+}
+
+/* Contact */
+section.contact-bg-img{
+    background-color: black;
+}
+
+/* Contact Form */
+
+h4#contactTitle{
+    text-align: center;
+}
+
+.col-lg-8.mb-4 {    /*centering the form*/
+    margin: 0 auto 0 auto;
+}
+
+p#askQuestion {
+    text-align: center;
+} 
+
+input.form-control {
+    background-color: #e4e6e8;
+    background-color: #e4e6e8;
+}
+
+textarea.form-control {
+    background-color: #e4e6e8;
+    background-color: #e4e6e8;
+}
+
+/* Media Queries */
+/*  Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+    body {
+        font-size: 16px;
+    }
+
+    h4.containerH1 {
+        margin: 5px;
+        line-height: 1.7;
+        text-align: center;
+        font-size: 32px;
+    }
+    
+
+    h4#contactTitle {
+        font-size: 1.7rem;
+    }
+
+    h5.containerH1 {
+        font-size: 1.3rem;
+    }
+
+    p.containerH1 {
+        font-size: 1rem;
+    }
+    
+    td {
+        padding-left: 170px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    body {
+        font-size: 16px;
+    }
+
+    h4.containerH1 {
+        margin: 5px;
+        line-height: 1.7;
+        text-align: center;
+        font-size: 32px;
+    }
+    
+    h4#contactTitle {
+        font-size: 1.7rem;
+    }
+
+    h5.containerH1 {
+        font-size: 1.3rem;
+    }
+
+    p.containerH1 {
+        font-size: 1rem;
+    }
+    
+    td {
+        padding-left: 380px;
+    }
+
+}
